@@ -35,7 +35,6 @@ public:
 	* @param name the name of the event goer
 	*/
 	EventTicket * add(std::string name) {
-		
 
 		stadium.push_front(name);
 

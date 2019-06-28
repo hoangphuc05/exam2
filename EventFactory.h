@@ -26,7 +26,7 @@ public:
 		else if (type == "baseball") { // Creates a baseball game
 			return new BaseballEvent(hometeam, visitingteam);
 		} 
-		else if (type == "tennis") {
+		else if (type == "tennis") { //create a tennis match
 			return new TennisEvent(hometeam, visitingteam);
 		}
 		else

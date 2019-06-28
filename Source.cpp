@@ -24,8 +24,8 @@ int main()
 
 	Event* events[EVENT_COUNT]; //Create a worldcup match and a baseball game
 	events[0] = EventFactory::factory("worldcup", "germany", "mexico"); // Create a worldcup match with the event factory
-	events[1] = EventFactory::factory("baseball", "everett", "spokane");
-	events[2] = EventFactory::factory("tennis", "Vietnam", "China");
+	events[1] = EventFactory::factory("baseball", "everett", "spokane");//create baseball event
+	events[2] = EventFactory::factory("tennis", "Vietnam", "China");//create tennis event
 	//FIXME 5a: generate an event object for your new kind of event
 
 
