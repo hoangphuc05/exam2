@@ -56,6 +56,7 @@ int main()
 
 		cout << "Event after Jane leaves:\n";
 		events[i]->list(); // List the people remaining
+		cout << endl;
 		
 	}
 	std::system("pause");

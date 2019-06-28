@@ -48,8 +48,8 @@ public:
 	*/
 	void list() {
 		// FIXME 1c: Show the event's home team and visiting team, then iterate through all the persons here.
-		std::cout << "The home team: " << homeTeam << std::endl;
-		std::cout << "The visiting team: " << visitingTeam << std::endl;
+		std::cout << "The home team from: " << homeTeam << std::endl;
+		std::cout << "The visiting team from: " << visitingTeam << std::endl;
 		std::cout << "The list of people in the stadium: \n";
 		std::list<std::string>::iterator iter = stadium.begin();
 		while (iter != stadium.end()) {
@@ -72,7 +72,7 @@ public:
 	 */
 	void cheer() {
 		for (std::list<std::string>::iterator i = stadium.begin(); i != stadium.end(); i++) {
-			std::cout << '\t' << *i << " clap as the the player score." << std::endl;
+			std::cout << '\t' << *i << " clap as the the team score." << std::endl;
 		}
 	}
 };

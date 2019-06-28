@@ -77,7 +77,7 @@ public:
 	}
 
 	/**
-	 * Have world cup attendees chant
+	 * Have attendees stretch
 	 */
 	void stretch() {
 		for (std::list<std::string>::iterator i = stadium.begin(); i != stadium.end(); i++) {
